@@ -1,6 +1,6 @@
 @media (min-width: 768px) {
 .nav-margin {
-    margin-top: 81px;
+    margin-top: 79px;
     }
 }
 
@@ -38,7 +38,9 @@
 
 .navbar-main {
     background-color:white;
-    border-bottom: 1px solid #d8d8d8;
+    -webkit-box-shadow: 2px 3px 7px 0px rgba(0,0,0,0.5);
+    -moz-box-shadow: 2px 3px 7px 0px rgba(0,0,0,0.5);
+    box-shadow: 2px 3px 7px 0px rgba(0,0,0,0.5);
 }
 
 .block-fill-height {
@@ -73,12 +75,18 @@
 
   @media (min-width: 768px) {
   .navbar-padded {
-      padding-bottom: 15px !important;
+      padding-bottom: 14px !important;
   }
 }
 
+@media (max-width: 768px) {
+    .navbar-padded {
+        padding-bottom: 0px !important;
+    }
+  }
+
 .p-t-md {
-    padding-top: 15px !important;
+    padding-top: 14px !important;
 }
 
 .nav-bordered.nav-stacked > li.active > a, .nav-bordered.nav-stacked > li.active > a:hover, .nav-bordered.nav-stacked > li.active > a:focus {
@@ -127,7 +135,7 @@ h3, h4 {
 a.anchor {
     display: block;
     position: relative;
-    top: -80px;
+    top: -78px;
     visibility: hidden;
     }
 }
