@@ -154,5 +154,6 @@ a.anchor {
 }
 
 .app-code-block strong {
-    color: #5291cc
+    color: #5291cc;
+    font-weight: 400
 }
